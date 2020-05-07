@@ -27,7 +27,7 @@ team:
     people:
       - name: "Kay Garland"
         role: "Lead Designer"
-        image: assets/img/team/1.jpg
+        image: assets/img/team/500x500.jpg
         social:
           - url: https://twitter.com
             icon: fab fa-twitter
@@ -37,7 +37,7 @@ team:
             icon: fab fa-linkedin-in
       - name: "Larry Parker"
         role: "Lead Marketer"
-        image: assets/img/team/2.jpg
+        image: assets/img/team/500x500.jpg
         social:
           - url: https://twitter.com
             icon: fab fa-twitter
