@@ -24,6 +24,7 @@ author     : Your Name
   # path: assets\img\clients\creative-market.jpg
   # height: 60 #height in px, defaults to 52px
 
+email: xpzyznle # formspree form id used in contact_me.js script
 contact:
   email: ruoji.growth@gmail.com #this is also the email contact forms will go to
   formspree: xpzyznle
