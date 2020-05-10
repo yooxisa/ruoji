@@ -2,11 +2,14 @@ nav:
   - title: "Services"
     section: services
 
+  - title: "Portfolio"
+    section: portfolio
+    
   - title: "Team"
     section: team
 
   - title: "Contact"
     section: contact
 
-#  - title: "External"
-#    url: https://raviriley.github.io
+  - title: "Blog"
+    url: /posts

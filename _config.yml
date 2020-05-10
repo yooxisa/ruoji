@@ -17,9 +17,9 @@ remote_theme: raviriley/agency-jekyll-theme
 url    : "https://shou1dwe.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "/ruoji" # the subpath of your site, e.g. /blog
 
-title      : Agency Jekyll Theme Demo
-description: "Agency Bootstrap theme converted to a Jekyll theme, plus new features: Google Analytics, Markdown support, custom pages, and more!"
-author     : Your Name
+title      : Ruoji Growth
+description: "Grow grow grow!"
+author     : Ruoji Growth
 # logo:     #optional, defaults to site title
   # path: assets\img\clients\creative-market.jpg
   # height: 60 #height in px, defaults to 52px
@@ -36,3 +36,9 @@ collections:
   portfolio:
 
 markdown: kramdown
+
+paginate:           5
+paginate_path:      "/posts/page:num/"
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap

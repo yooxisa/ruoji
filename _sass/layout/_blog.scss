@@ -1,0 +1,78 @@
+// Styling for the blog
+.post-preview {
+  > a {
+    color: $gray-900;
+    &:focus,
+    &:hover {
+      text-decoration: none;
+      color: $primary;
+    }
+    > .post-title {
+      font-size: 30px;
+      margin-top: 30px;
+      margin-bottom: 10px;
+    }
+    > .post-subtitle {
+      font-weight: 300;
+      margin: 0 0 10px;
+    }
+  }
+  > .post-meta {
+  	@include heading-font;
+    font-size: 16px;
+    margin-top: 20px;
+    color: $gray-600;
+    > a {
+      text-decoration: none;
+      color: $gray-900;
+      &:focus,
+      &:hover {
+        text-decoration: underline;
+        color: $primary;
+      }
+    }
+  }
+  @media only screen and (min-width: 768px) {
+    > a {
+      > .post-title {
+        font-size: 36px;
+      }
+    }
+  }
+}
+
+.post-header {
+	padding: 0 0 30px;
+    > .post-subtitle {
+      font-weight: 300;
+    }
+	.post-meta {
+		@include heading-font;
+	    font-size: 16px;
+	    color: $gray-600;
+	}
+}
+
+.post-body {
+	padding: 0 0 30px;
+	blockquote {
+	    padding: 0.2em 2em 0.1em;
+	    font-style: italic;
+	    color: #868e96;
+	}
+}
+
+.post-footer {
+	display: block;
+	width: auto;
+	overflow: hidden;
+	a {
+		display: block;
+		width: 50%;
+		float: left;
+		margin: 1em 0;
+	}
+	.next {
+		text-align: right;
+	}
+}

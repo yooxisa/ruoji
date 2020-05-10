@@ -4,6 +4,10 @@ header:
     button: Tell Me More
     buttonlink: "#services"
 
+pagehead:
+    title: Growth Diary
+    text: Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+
 services:
     title: "Services"
     text: "Lorem ipsum"
@@ -18,6 +22,27 @@ services:
       - title: "[Markdown](https://en.wikipedia.org/wiki/Markdown)"
         desc: "Your description here, full **Markdown** support"
         icon: fab fa-markdown
+
+portfolio:
+    title: "Portfolio"
+    text: "Lorem ipsum dolor sit amet consectetur."
+    section: portfolio
+
+clients:
+    section: clients
+    list:
+      - title: "envato"
+        url: https://github.com/raviriley/agency-jekyll-theme
+        logo: assets/img/clients/envato.jpg
+      - title: "designmodo"
+        url: https://github.com/raviriley/agency-jekyll-theme
+        logo: assets/img/clients/designmodo.jpg
+      - title: "themeforest"
+        url: https://github.com/raviriley/agency-jekyll-theme
+        logo: assets/img/clients/themeforest.jpg
+      - title: "Creative Market"
+        url: https://github.com/raviriley/agency-jekyll-theme
+        logo: assets/img/clients/creative-market.jpg
 
 team:
     title: "OUR AMAZING TEAM"
