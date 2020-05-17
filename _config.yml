@@ -30,7 +30,7 @@ contact:
   formspree: xpzyznle
 
 analytics:
-  google: #Google Analytics tracking code here
+  google: UA-166913189-1
 
 collections:
   portfolio:
