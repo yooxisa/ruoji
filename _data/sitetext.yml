@@ -69,7 +69,15 @@ team:
             icon: fab fa-linkedin-in
           - url: https://twitter.com
             icon: fab fa-twitter
-          
+
+blog_preview:
+    title: "Blog"
+    text: "Asia centric growth marketing learnings from the region’s fastest growing brands"
+    section: blog
+    cta:
+      link: /posts
+      text: Read All Blog Posts
+
 contact:
     title: "Contact Us"
     text: "Let's connect!"

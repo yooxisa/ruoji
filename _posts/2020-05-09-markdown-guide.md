@@ -2,6 +2,7 @@
 layout: post
 title: "All Markdown Syntax Supported"
 subtitle: "This post contains all markdown syntax supported. You can view the rendered effect of them."
+cover: /assets/img/team/500x500.jpg
 date: 2020-05-09 21:45:13 +0800
 ---
 
