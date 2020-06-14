@@ -1,0 +1,16 @@
+// Monkey patching styling 
+section.page-section {
+  .container {
+    h3.section-subheading {
+      color: green;
+      font-style: normal;
+        @include heading-font;
+    }
+  }
+}
+
+.team-member {
+  img.grayscale {
+    filter: grayscale(0.8);
+  }
+}

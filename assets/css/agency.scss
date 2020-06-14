@@ -16,6 +16,7 @@ $contact-image: "{{ site.data.style.contact-image | prepend : site.baseurl }}";
 
 // Global CSS
 @import "base/page.scss";
+@import "patch.scss";
 
 // Components
 @import "components/buttons.scss";
