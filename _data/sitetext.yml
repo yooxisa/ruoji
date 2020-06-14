@@ -1,26 +1,27 @@
 header:
-    title: Welcome to our Studio!
-    text: It's Nice To Meet You
+    title: Looking for Growth Marketing expertise?
+    text: We’ll scale your customer growth efficiently
     button: Tell Me More
     buttonlink: "#services"
 
 pagehead:
-    title: Growth Diary
-    text: Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+    title: Blog
+    text: Asia centric growth marketing learnings from the region’s fastest growing brands
 
 services:
     title: "Services"
     text: "Lorem ipsum"
     section: services
     list:
-      - title: "E-Commerce"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+      - title: "Web Analytics"
+        desc: "Data is important, but also messy. We’ll help you find out what your customers are doing online and why they are doing it, so you can focus on the key aspects of your business. 
+"
         icon: fas fa-shopping-cart #find more at https://fontawesome.com/icons
-      - title: "Responsive Design"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+      - title: "Performance Marketing"
+        desc: "Discover the traction channel that works for your business. We have scaled performance marketing programs across some of the region’s fastest growing companies, such as XXXs."
         icon: fas fa-laptop       
-      - title: "[Markdown](https://en.wikipedia.org/wiki/Markdown)"
-        desc: "Your description here, full **Markdown** support"
+      - title: "Conversion Rate Optimization"
+        desc: "Traffic’s great, but only if it converts. We’ll help you assess your website’s landing page flow to ensure your hard won traffic doesn’t go to waste."
         icon: fab fa-markdown
 
 portfolio:
@@ -50,7 +51,7 @@ team:
     subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
     section: team
     people:
-      - name: "Kay Garland"
+      - name: "Isabella Zhou"
         role: "Lead Designer"
         image: assets/img/team/500x500.jpg
         social:
@@ -60,7 +61,7 @@ team:
             icon: fab fa-facebook-f
           - url: https://linkedin.com
             icon: fab fa-linkedin-in
-      - name: "Larry Parker"
+      - name: "Yang Jieyu (Jerry)"
         role: "Lead Marketer"
         image: assets/img/team/500x500.jpg
         social:
