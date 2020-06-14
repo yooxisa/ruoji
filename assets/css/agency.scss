@@ -19,9 +19,9 @@ $contact-image: "{{ site.data.style.contact-image | prepend : site.baseurl }}";
 
 // Components
 @import "components/buttons.scss";
-@import "components/navbar.scss";
 
 // Layout
+@import "layout/navbar.scss";
 @import "layout/masthead.scss";
 @import "layout/pagehead.scss";
 @import "layout/blog.scss";
