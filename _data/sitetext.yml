@@ -23,6 +23,21 @@ services:
         desc: "Traffic’s great, but only if it converts. We’ll help you assess your website’s landing page flow to ensure your hard won traffic doesn’t go to waste."
         icon: fas fa-shopping-cart
 
+pitch:
+    title: "WHY WORK WITH US" 
+    text: " "
+    section: timeline
+    events:
+      - title: "We've Done It Before"
+        desc: "We helped high growth companies scale up in this region and will bring that same best in class experience to your business. Through this, we will help you cut through the noise and build a clear growth strategy."
+        align: left
+      - title: "We Build Partnerships"
+        desc: "We operate as your partner, not your average agency. We approach it by understanding your business objectives and challenges first. We also help your team define success metrics and coach them how to manage it independently in the long run. We are firm believers of \"Give a man a fish and you feed him for a day; teach a man to fish and you feed him for a lifetime.\""
+        align: right
+      - title: "We're Flexible"
+        desc: "We can work with any current structure you have with your team and your data. We can run our analysis upon access to the platform and a 30-min intro session to get started."
+        align: left
+
 portfolio:
     title: "Portfolio"
     text: "Lorem ipsum dolor sit amet consectetur."

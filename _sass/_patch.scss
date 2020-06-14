@@ -9,6 +9,24 @@ section.page-section {
   }
 }
 
+ul.timeline {
+  div.timeline-image {
+    span {
+      font-size: 1.7em;
+    }
+    @media only screen and (min-width: 768px) {
+      span {
+        font-size: 3em;
+      }
+    }
+    @media only screen and (min-width: 992px) {
+      span {
+        font-size: 5em;
+      }
+    }
+  }
+}
+
 .team-member {
   img.grayscale {
     filter: grayscale(0.8);
