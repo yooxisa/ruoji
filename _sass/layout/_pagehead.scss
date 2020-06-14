@@ -1,19 +1,8 @@
 // Styling for the pagehead
 header.pagehead {
-  background: no-repeat center center;
-  background-color: $gray-600;
-  background-attachment: scroll;
-  background-size: cover;
+  background: #666;
+  background: radial-gradient(circle, #666 0%, #444 50%, #222 100%);
   position: relative;
-  .overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    background-color: $gray-900;
-    opacity: 0.5;
-  }
   .page-heading {
     h1 {
       p {
@@ -24,7 +13,7 @@ header.pagehead {
   .page-heading,
   .post-heading,
   .site-heading {
-    padding: 150px 0 150px;
+    padding: 100px 0 50px;
     color: white;
     @media only screen and (min-width: 768px) {
       padding: 150px 0;

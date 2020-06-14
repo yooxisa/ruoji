@@ -6,25 +6,34 @@ background: '/img/bg-post.jpg'
 
 {% for post in paginator.posts %}
 <div class="row">
-<article class="post-preview">
-  <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
-    <h1 class="post-title">{{ post.title }}</h1>
-  </a>
-  {% if post.subtitle %}
-  <h4 class="post-subtitle">{{ post.subtitle }}</h4>
-  {% endif %}
-  <p class="post-meta">{{ post.excerpt | strip_html | truncatewords: 35 }}</p>
+  <div class="col px-0">
+    <article class="post-preview">
+      <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
+        <h1 class="post-title">{{ post.title }}</h1>
+      </a>
+      {% if post.subtitle %}
+      <h4 class="post-subtitle d-none d-md-inline">{{ post.subtitle }}</h4>
+      {% endif %}
+      <p class="post-meta">{{ post.excerpt | strip_html | truncatewords: 35 }}</p>
 
-  <p class="post-meta">
-    Posted by
-    {% if post.author %}
-    {{ post.author }}
-    {% else %}
-    {{ site.author }}
-    {% endif %}
-    on {{ post.date | date: '%B %d, %Y' }}
-  </p>
-</article>
+      <p class="post-meta">
+        Posted by
+        {% if post.author %}
+        {{ post.author }}
+        {% else %}
+        {{ site.author }}
+        {% endif %}
+        on {{ post.date | date: '%B %d, %Y' }}
+      </p>
+    </article>
+  </div>
+
+  {% if post.cover %}
+  <div class="col-4 col-md-3 pr-0 pr-md-2">
+    <img class="mx-auto" style="margin-top: 2em; max-width: 100%" src="{{ post.cover | prepend: site.baseurl }}" alt="{{ post.title }}"/>
+  </div>
+  {% endif %}
+
 </div>
 
 <hr>
