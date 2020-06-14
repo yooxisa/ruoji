@@ -32,7 +32,7 @@ header.pagehead {
       line-height: 1.1;
       display: block;
       margin: 10px 0 0;
-      @include serif-font;
+      @include heading-font;
     }
     @media only screen and (min-width: 768px) {
       h1 {
