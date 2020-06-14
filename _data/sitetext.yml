@@ -71,7 +71,15 @@ team:
             icon: fab fa-facebook-f
           - url: https://linkedin.com
             icon: fab fa-linkedin-in
-          
+
+blog_preview:
+    title: "Blog"
+    text: "Asia centric growth marketing learnings from the region’s fastest growing brands"
+    section: blog
+    cta:
+      link: /posts
+      text: Read All Blog Posts
+
 contact:
     title: "Contact Us"
     text: "Lorem ipsum or call 123456789"
