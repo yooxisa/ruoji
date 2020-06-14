@@ -1,6 +1,6 @@
 header:
-    title: Looking for Growth Marketing expertise?
-    text: We’ll scale your customer growth efficiently
+    title: We scale your customer growth efficiently
+    text: Our tailor-made growth strategy helps SMEs drive real results.
     button: Tell Me More
     buttonlink: "#services"
 
@@ -9,8 +9,8 @@ pagehead:
     text: Asia centric growth marketing learnings from the region’s fastest growing brands
 
 services:
-    title: "Services"
-    text: "Lorem ipsum"
+    title: "HOW WE CAN HELP"
+    text: " "
     section: services
     list:
       - title: "Web Analytics"
@@ -46,35 +46,33 @@ clients:
         logo: assets/img/clients/creative-market.jpg
 
 team:
-    title: "OUR AMAZING TEAM"
-    text: "Lorem ipsum dolor sit amet consectetur."
-    subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
+    title: "WHO WE ARE"
+    text: " "
+    subtext: " "
     section: team
     people:
       - name: "Isabella Zhou"
-        role: "Lead Designer"
-        image: assets/img/team/500x500.jpg
+        role: "Growth Architect"
+        intro: Isabella is a growth strategist who loves harnessing innovative data-driven ways to drive growth with efficiency. She has spent the last 6 years in digital marketing for the retail and e-commerce industry, worked in the biggest fashion e-commerce marketplace ZALORA in southeast Asia and omni-channel retailer SEPHORA. She has been invited to speak at various conferences like FUTR, eTail and Facebook SMB events.
+        image: https://media-exp1.licdn.com/dms/image/C4D03AQFFGehmZdpHVA/profile-displayphoto-shrink_800_800/0?e=1597881600&v=beta&t=P_-JEVuM8YONzc5A9UngoTlwQwW64-5xc3s7IYscJE8
         social:
+          - url: https://www.linkedin.com/in/isabella-yuxue-zhou-b08b3629/
+            icon: fab fa-linkedin-in
+          - url: https://twitter.com/Am_Isa216
+            icon: fab fa-twitter
+      - name: "Jerry Yang Jieyu"
+        role: "Growth Marketer"
+        intro: Jerry is a XX
+        image: https://media-exp1.licdn.com/dms/image/C5103AQEnZEhjvW5X6Q/profile-displayphoto-shrink_800_800/0?e=1597881600&v=beta&t=2mRPLRATCaiCjMMQ_oC7p7U1UBvBovD0DFQRObkYDrw
+        social:
+          - url: https://www.linkedin.com/in/yang-jieyu-jerry-41a56785/
+            icon: fab fa-linkedin-in
           - url: https://twitter.com
             icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
-          - url: https://linkedin.com
-            icon: fab fa-linkedin-in
-      - name: "Yang Jieyu (Jerry)"
-        role: "Lead Marketer"
-        image: assets/img/team/500x500.jpg
-        social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
-          - url: https://linkedin.com
-            icon: fab fa-linkedin-in
           
 contact:
     title: "Contact Us"
-    text: "Lorem ipsum or call 123456789"
+    text: "Let's connect!"
     section: contact
     
 footer:
