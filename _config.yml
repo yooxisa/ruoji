@@ -21,7 +21,7 @@ title      : MorphoG
 description: "Scaling your growth"
 author     : MorphoG
 logo:     #optional, defaults to site title
-  path: assets/img/logo/favicon-32x32.png
+  path: assets/img/logo/apple-touch-icon.png
   height: 32 #height in px, defaults to 52px
 
 email: xpzyznle # formspree form id used in contact_me.js script
