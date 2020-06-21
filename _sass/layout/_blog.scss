@@ -35,7 +35,7 @@
 }
 
 .post-header {
-	padding: 0 0 30px;
+	padding: 0 0 10px;
     > .post-subtitle {
       font-weight: 300;
     }
@@ -48,10 +48,31 @@
 
 .post-body {
 	padding: 0 0 30px;
+  font-size: 19px;
+
+  h1, h2, h3, h4, h5 {
+    margin-top: 1.9em;
+    margin-bottom: 1.5em;
+  }
+
+  p {
+    margin-top: 1.9em;
+    margin-bottom: 1.5em;
+    img {
+      margin: auto;
+      display: block;
+    }
+  }
+
 	blockquote {
-	    padding: 0.2em 2em 0.1em;
-	    font-style: italic;
-	    color: #868e96;
+    font-style: italic;
+    color: #868e96;
+    border-left: 5px solid $gray-400;
+    margin-left: 1em;
+    padding: 0.1em 1em;
+    p {
+      margin: 0.5em;
+    }
 	}
 }
 

@@ -20,9 +20,9 @@ baseurl: "/ruoji" # the subpath of your site, e.g. /blog
 title      : MorphoG
 description: "Scaling your growth"
 author     : MorphoG
-# logo:     #optional, defaults to site title
-  # path: assets\img\clients\creative-market.jpg
-  # height: 60 #height in px, defaults to 52px
+logo:     #optional, defaults to site title
+  path: assets/img/logo/favicon-32x32.png
+  height: 32 #height in px, defaults to 52px
 
 email: xpzyznle # formspree form id used in contact_me.js script
 contact:

@@ -26,7 +26,7 @@
             <p class="post-meta">
               Posted by
               {% if post.author %}
-              {{ post.author }}
+              <a class="js-scroll-trigger" href="{{ '/#' | append: post.author | prepend: site.baseurl }}">{{ site.data.sitetext.team.people[post.author].name }}</a>
               {% else %}
               {{ site.author }}
               {% endif %}

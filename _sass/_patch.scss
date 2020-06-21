@@ -28,6 +28,9 @@ ul.timeline {
 }
 
 .team-member {
+  margin-top: -180px;
+  padding-top: 180px;
+
   img.grayscale {
     filter: grayscale(0.8);
   }

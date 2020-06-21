@@ -65,7 +65,8 @@ team:
     subtext: " "
     section: team
     people:
-      - name: "Isabella Zhou"
+      isabella_zhou:
+        name: "Isabella Zhou"
         role: "Growth Architect"
         intro: Isabella is a growth strategist who loves harnessing innovative ways to drive growth with efficiency. She has spent the last 6 years working in the biggest fashion marketplace ZALORA in SEA and omni-channel retailer SEPHORA. Her recent role as Head of Growth at Love, Bonito has drove hyper growth for its international expansion. She has been invited to speak at conferences like FUTR and Facebook SMB events.
         image: https://media-exp1.licdn.com/dms/image/C4D03AQFFGehmZdpHVA/profile-displayphoto-shrink_800_800/0?e=1597881600&v=beta&t=P_-JEVuM8YONzc5A9UngoTlwQwW64-5xc3s7IYscJE8
@@ -74,7 +75,8 @@ team:
             icon: fab fa-linkedin-in
           - url: https://twitter.com/Am_Isa216
             icon: fab fa-twitter
-      - name: "Jerry Yang Jieyu"
+      jerry_yang_jieyu:
+        name: "Jerry Yang Jieyu"
         role: "Growth Marketer"
         intro: "Jieyu (Jerry) is a self professeed growth marketing geek who loves helping companies scale their business. He has spent the last 5 years growing the user base for globally recognised brands such as ClassPass and Sephora. He has been invited as a panelist at General Assembly and is also a Digital Marketing instructor for Smartcademy."
         image: https://media-exp1.licdn.com/dms/image/C5103AQEnZEhjvW5X6Q/profile-displayphoto-shrink_800_800/0?e=1597881600&v=beta&t=2mRPLRATCaiCjMMQ_oC7p7U1UBvBovD0DFQRObkYDrw

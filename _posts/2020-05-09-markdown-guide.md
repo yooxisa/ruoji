@@ -4,6 +4,7 @@ title: "All Markdown Syntax Supported"
 subtitle: "This post contains all markdown syntax supported. You can view the rendered effect of them."
 cover: /assets/img/team/500x500.jpg
 date: 2020-05-09 21:45:13 +0800
+author: isabella_zhou
 ---
 
 This is a demo of all styled elements in Jekyll Now. 
@@ -21,7 +22,7 @@ Next up are some headers, they're heavily influenced by GitHub's markdown style.
  
 A link to [Jekyll Now](http://github.com/barryclark/jekyll-now/). A big ass literal link <http://github.com/barryclark/jekyll-now/>
   
-[Link to another post](/ruoji{% post_url 2020-05-08-markdown-yeah %})
+[Link to another post](/ruoji{% post_url 2020-05-09-a-b-test-at-zero-cost-part-1 %})
 
 An image, located within `/assets/img/team/`
 
