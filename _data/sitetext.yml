@@ -70,7 +70,7 @@ blog_preview:
     text: "Asia centric growth marketing learnings from the region’s fastest growing brands"
     section: blog
     cta:
-      link: /posts
+      link: /blog
       text: Read All Blog Posts
 
 contact:
