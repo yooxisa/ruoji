@@ -38,27 +38,6 @@ pitch:
         desc: "We can work with any current structure you have with your team and your data. We can run our analysis upon access to the platform and a 30-min intro session to get started."
         align: left
 
-portfolio:
-    title: "Portfolio"
-    text: "Lorem ipsum dolor sit amet consectetur."
-    section: portfolio
-
-clients:
-    section: clients
-    list:
-      - title: "envato"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/envato.jpg
-      - title: "designmodo"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/designmodo.jpg
-      - title: "themeforest"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/themeforest.jpg
-      - title: "Creative Market"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/creative-market.jpg
-
 team:
     title: "WHO WE ARE"
     text: " "

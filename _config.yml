@@ -14,8 +14,8 @@
 # theme: jekyll-agency
 remote_theme: raviriley/agency-jekyll-theme
 
-url    : "https://shou1dwe.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-baseurl: "/ruoji" # the subpath of your site, e.g. /blog
+url    : "https://morphog.com" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
 
 title      : MorphoG
 description: "Scaling your growth"
