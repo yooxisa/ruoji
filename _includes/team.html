@@ -8,10 +8,10 @@
 	</div>
   </div>
   <div class="row">
-  {% for person in site.data.sitetext.team.people %}
+  {% for person in site.data.authors %}
 	<div class="col-sm-6">
 	  <div class="team-member" id="{{ person[0] }}">
-		<img class="mx-auto rounded-circle grayscale" src="{{ person[1].image }}" alt="">
+		<img class="mx-auto rounded-circle grayscale" src="{{ person[1].picture }}" alt="">
 		<h4>{{ person[1].name }}</h4>
 		<p class="mb-4">{{ person[1].role }}</p>
 		<ul class="list-inline social-buttons mb-5">

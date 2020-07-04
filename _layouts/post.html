@@ -12,7 +12,7 @@ layout: page
 	<p class="post-meta">
 	Posted by
 	{% if page.author %}
-	<a class="js-scroll-trigger" href="{{ '/#' | append: page.author | prepend: site.baseurl }}">{{ site.data.sitetext.team.people[page.author].name }}</a>
+	<a class="js-scroll-trigger" href="{{ '/#' | append: page.author | prepend: site.baseurl }}">{{ site.data.authors[page.author].name }}</a>
 	{% else %}
 	{{ site.author }}
 	{% endif %}

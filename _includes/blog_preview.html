@@ -26,7 +26,7 @@
             <p class="post-meta">
               Posted by
               {% if post.author %}
-              <a class="js-scroll-trigger" href="{{ '/#' | append: post.author | prepend: site.baseurl }}">{{ site.data.sitetext.team.people[post.author].name }}</a>
+              <a class="js-scroll-trigger" href="{{ '/#' | append: post.author | prepend: site.baseurl }}">{{ site.data.authors[post.author].name }}</a>
               {% else %}
               {{ site.author }}
               {% endif %}
@@ -35,9 +35,9 @@
           </article>
         </div>
 
-        {% if post.cover %}
+        {% if post.image %}
         <div class="col-4 col-md-3 pl-0 pl-md-3">
-          <img class="mx-auto" style="margin-top: 3em; max-width: 100%" src="{{ post.cover | prepend: site.baseurl }}" alt="{{ post.title }}"/>
+          <img class="mx-auto" style="margin-top: 3em; max-width: 100%" src="{{ post.image | prepend: site.baseurl }}" alt="{{ post.title }}"/>
         </div>
         {% endif %}
 

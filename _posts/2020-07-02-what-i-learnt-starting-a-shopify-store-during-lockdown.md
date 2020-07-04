@@ -2,7 +2,7 @@
 layout: post
 title: "What I learnt starting a shopify store during lockdown"
 subtitle: "And why you should start a side project too"
-cover: /assets/img/posts/jerry_openshopify3.jpeg
+image: /assets/img/posts/jerry_openshopify3.jpeg
 date: 2020-07-02 21:45:13 +0800
 author: jerry_yang_jieyu
 ---

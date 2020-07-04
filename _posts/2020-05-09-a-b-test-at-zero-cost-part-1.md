@@ -2,7 +2,7 @@
 layout: post
 title: "A/B Test at Zero Cost: Starting My First Test"
 subtitle: "A Busy Marketer’s Guide to A/B Testing"
-cover: /assets/img/posts/isa_abtest_cover.png
+image: /assets/img/posts/isa_abtest_cover.png
 date: 2020-05-10 21:45:13 +0800
 author: isabella_zhou
 ---
