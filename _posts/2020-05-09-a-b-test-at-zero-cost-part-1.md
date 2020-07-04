@@ -1,92 +1,36 @@
 ---
 layout: post
 title: "A/B Test at Zero Cost: Starting My First Test"
-subtitle: "Part 1 of a Busy Marketer’s Guide to A/B Testing"
-cover: /assets/img/team/500x500.jpg
+subtitle: "A Busy Marketer’s Guide to A/B Testing"
+cover: /assets/img/posts/isa_abtest_cover.png
 date: 2020-05-10 21:45:13 +0800
 author: isabella_zhou
 ---
 
-While running A/B tests can sound exciting, the execution and planning of it can be chaotic, especially with a small team. We are sharing our attempt of organizing effective A/B tests, and hopefully at the end of the post, you can draw some inspiration for yours.
+
+While running A/B tests can sound exciting, the execution and planning of it can be chaotic, especially with a small team. Given the 10,000 other immediate priorities we might have on our plate, we often ponder on whether these tests might create any value.
 
 _________________
 
-We have been using following 5 steps to run a successful A/B test our campaigns:
+### Before we start — Some hard truths upfront on A/B tests:
 
-### Build a Prioritization Framework
+**Guess what? Running A/B tests can be useless at times** 😪
 
-A prioritization framework is essential for everyone to enter ideas and rank their ideas. It can be as simple as creating a spreadsheet to track all ideas with structured inputs from contributors. We were inspired by the book “Hacking Growth: How Today’s Fastest-Growing Companies Drive Breakout Success” by Sean Ellis (Available on Amazon: [HERE](https://www.amazon.com/Hacking-Growth-Fastest-Growing-Companies-Breakout/dp/045149721X)).
+* Time-consuming: 2 weeks are typically needed for one of the variants to be statistically significant during testing
+* Lack of actionable next steps: Test results can be counter-intuitive and inconsistent; you have either test again at another time or leave it for now after a month of testing
 
-![an image alt text]({{ site.baseurl }}/assets/img/team/500x500.jpg "an image title")
+With this, we recommend [a bunch of articles from CXL](https://cxl.com/?s=test) for further reading. **So why are we still running these tests?**
 
-#### 1. Number it  
+* Validation: It is human nature to make assumptions based on instincts, but the reality might be quite contradictory. Testing is the best way to put things into perspective and leverage data to validate assumptions. Removing guesswork out of the picture, why not?
 
-#JustHousekeepingThings Make sure everything is organized for documentation memos!
+* As the saying goes, “small tweaks can move the needle”: We recently conducted a test: by placing an urgency label “selling fast” on popular products; we saw a 20% higher add-to-cart rate compared to the original version.
 
-#### 2. Objective
-    
-> What do you want to achieve, e.g. improve add-to-cart rate?
+* Team work: it helps bring minds together to explore something out of the norm. If you work in a fast-paced startup environment, there is no doubt that your team has tons of daily work to execute. To alleviate them of their daily grind, create something different and exciting for them to participate in. You might be surprised by the creativity and novel ideas!
 
-Try to break down a big KPI into mutually exclusive smaller goals. At any one point of time, you are improving one part of the funnel instead of all. For example, we cannot improve conversion rate directly but we can improve one part of the funnel leading up to conversion rate so that the overall conversion rate is improved
+_________________
 
-![an image alt text]({{ site.baseurl }}/assets/img/team/500x500.jpg "an image title")
-
-> Each rectangular represents one part of the funnel leading up to Conversion Rate (CR)
-
-#### 3. Hypothesis
-
-> by doing X action, I predict add-to-cart rate will be improved by 20%  
+### Okay, so how do I start my first test?
 
 
-We usually conduct a quick analysis of the metrics to date and estimate number of users affected by this hypothesis; we also plot out the historical trends of those metrics to extract user behaviours to predict the improvement with the test
+**Read the full article published on [Love, Bonito's Medium Growth Journal HERE](https://medium.com/lovebonito-growth-journal/how-do-we-spend-3-hours-a-week-to-run-a-b-tests-at-zero-cost-e3c4b25c9960)**
 
-It’s dangerous to start a test without understanding the impact, e.g. you may propose a test for 1 user instead of 1000 users
-
-#### 4. Target Audience
-
-Is this an experiment for all visitors, new visitors or a segment of users?
-
-#### 5. Key results to track
-
-PICK 1 PRIMARY GOAL!
-
-There is a misconception: trying to test as much as possible from one test so we get more learnings. This isn’t wrong and you can still set up secondary goals for an experiment. However, if the primary goal isn’t clear, when you review the experiment design you’ll be lost and miss the original objective.
-
-### Prioritize It
-
-Each point has a rating from 1 to 5 and the tests scoring the highest average will be prioritized.
-
-![an image alt text]({{ site.baseurl }}/assets/img/team/500x500.jpg "an image title")
-
-### Choose an A/B Testing Tool and Create a Test
-
-There are a number of tools in the market but we’ve been on Google Optimize for several reasons:
-
-* It’s FREE and directly linked to Google Analytics to track results, create goals and segmentations based on your historical data
-
-* It can be easily implemented via GTM or a line of simple code
-
-* You can easily modify anything on a specific page (you name it) via simple HTML/CSS; if you want to go hardcore, there is the JS option too
-
-![an image alt text]({{ site.baseurl }}/assets/img/team/500x500.jpg "an image title")
-
-* It takes care of all statistical calculations and show you the significance of the results
-
-![an image alt text]({{ site.baseurl }}/assets/img/team/500x500.jpg "an image title")
-
-Limitations:  
-
-* Max 5 tests are running concurrently but we’re unlikely to exceed that  
-
-* 1 primary goal in every test, which is great because it helps us to be laser-focus and overly greedy; however, you can have multiple secondary goals
-
-### Run It
-
-This is the simplest step out of all 5, because you just gotta wait.
-
-### Document It
-Each time a test is selected, a 1–2 page memo should be created according to the following template. The memo will help document the expected results and conclusions from the experiment.
-
-![an image alt text]({{ site.baseurl }}/assets/img/team/500x500.jpg "an image title")
-
-> (We referenced an online resource to adapt their template)
